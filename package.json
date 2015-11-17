@@ -13,7 +13,7 @@
     "atom": ">=1.1.0"
   },
   "scripts": {
-    "test": "xo"
+    "test": "xo && apm test"
   },
   "files": [
     "index.js"
