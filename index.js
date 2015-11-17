@@ -1,5 +1,7 @@
 'use strict';
-module.exports = function (atom, editor, text) {
+module.exports = function (text, editor) {
+	editor = editor || atom.workspace.getActiveTextEditor();
+
 	const editorEl = atom.views.getView(editor);
 	const cursorPosition = editor.getCursorBufferPosition();
 	const line = editorEl.getFirstVisibleScreenRow() + editor.displayBuffer.getVerticalScrollMargin();

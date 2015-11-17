@@ -14,13 +14,26 @@ $ npm install --save atom-set-text
 
 ```js
 /** @babel */
-import atom from 'atom';
 import setText from 'atom-set-text';
 
-const editor = atom.workspace.getActiveTextEditor();
-
-setText(atom, editor, 'new text');
+setText('new text');
 ```
+
+## API
+
+### setText(text, [editor])
+
+#### text
+
+Type: `string`
+
+Text you want to set in the editor.
+
+#### editor
+
+Default: `atom.workspace.getActiveTextEditor()`
+
+Editor to set the text in.
 
 
 ## License
