@@ -30,8 +30,16 @@
   },
   "xo": {
     "esnext": true,
+    "envs": [
+      "node",
+      "jasmine"
+    ],
     "globals": [
-      "atom"
+      "atom",
+      "waitsForPromise"
+    ],
+    "ignores": [
+      "spec/fixture/**"
     ]
   }
 }
