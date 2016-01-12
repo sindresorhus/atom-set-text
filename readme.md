@@ -1,6 +1,6 @@
 # atom-set-text [![Build Status](https://travis-ci.org/sindresorhus/atom-set-text.svg?branch=master)](https://travis-ci.org/sindresorhus/atom-set-text)
 
-> A better Atom [`TextEditor#setText()`](https://atom.io/docs/api/latest/TextEditor#instance-setText) that preserves cursor and scroll position
+> A better Atom [`TextEditor#setText()`](https://atom.io/docs/api/latest/TextEditor#instance-setText) that preserves cursor/scroll position and selections
 
 
 ## Install

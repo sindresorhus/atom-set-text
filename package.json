@@ -1,7 +1,7 @@
 {
   "name": "atom-set-text",
   "version": "1.0.1",
-  "description": "A better Atom `TextEditor#setText()` that preserves cursor and scroll position",
+  "description": "A better Atom `TextEditor#setText()` that preserves cursor/scroll position and selections",
   "license": "MIT",
   "repository": "sindresorhus/atom-set-text",
   "author": {
