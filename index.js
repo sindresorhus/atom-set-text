@@ -2,7 +2,7 @@
 module.exports = function (text, editor) {
 	editor = editor || atom.workspace.getActiveTextEditor();
 
-	if (!editor) {
+	if (!editor || typeof text !== 'string') {
 		return;
 	}
 
