@@ -39,7 +39,8 @@
       "waitsForPromise"
     ],
     "ignores": [
-      "spec/fixture/**"
+      "spec/fixture/**",
+      "atom/**"
     ]
   }
 }
