@@ -9,7 +9,7 @@ module.exports = function (text, editor) {
 	const editorEl = atom.views.getView(editor);
 	const cursorPosition = editor.getCursorBufferPosition();
 	const selections = editor.getSelectedBufferRanges();
-	const line = editorEl.getFirstVisibleScreenRow() + editor.displayBuffer.getVerticalScrollMargin();
+	const line = editorEl.getFirstVisibleScreenRow() + editor.getVerticalScrollMargin();
 
 	editor.setText(text);
 	editor.setCursorBufferPosition(cursorPosition);

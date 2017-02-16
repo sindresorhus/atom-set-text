@@ -10,7 +10,7 @@
     "url": "sindresorhus.com"
   },
   "engines": {
-    "atom": ">=1.1.0"
+    "atom": ">=1.13.0"
   },
   "scripts": {
     "test": "xo && apm test"
